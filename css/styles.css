@@ -1,4 +1,7 @@
 /* Title */
+body {
+  background: #13181b;
+}
 h1{
   font-size: 72px;
  background: -webkit-linear-gradient(rgba(50,205,50,1), rgba(0,212,255,1));
