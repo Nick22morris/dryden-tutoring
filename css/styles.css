@@ -1,6 +1,6 @@
 /* Title */
 body {
-  background: #13181b;
+  background: white;
 }
 h1{
   font-size: 72px;
@@ -18,7 +18,7 @@ h3 {
   display: flex;
   height: 800px;
   width: 100%;
-  background: #13181b;
+  background: white;
   flex-flow: column;
   justify-content: center;
   align-items: center;
@@ -58,7 +58,7 @@ hr {
   display: flex;
   height: 800px;
   width: 100%;
-  background-color: #20292e;
+  background-color: #13181b;
   flex-flow: column;
   justify-content: center;
   align-items: center;
@@ -77,7 +77,7 @@ hr {
 }
 .subTitle {
   font-size: 50px;
-  color: white;
+  color: black;
 }
 .class-container {
   background-color: #13181b;
