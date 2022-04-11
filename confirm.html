@@ -2,18 +2,20 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Tutors</title>
+    <title>Sign Up</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel="icon" type="image/x-icon" href="css/favicon.ico">
+    <script src="logic.js"></script>
   </head>
-  <body>
+  <body style="background-color: #13181b;">
     <div id="content">
       <ul class="menu cf">
         <li><a href="index.html">Home</a></li>
-        <li><a href="signup.html">Sign Up</a></li>
+        <li><a href="tutors.html">Tutors</a></li>
         <li><a href="contact.html">Contact</a></li>
         <li><a href="about.html">About</a></li>
+
         <li>
           <a href="">Follow us</a>
           <ul class="submenu">
@@ -22,30 +24,15 @@
             <li><a href="https://www.yelp.com/biz/dryden-tutoring-dallas?osq=dryden+tutoring">Yelp</a></li>
           </ul>
         </li>
-
       </ul>
-      <!-- <img class="crop"; src="css/logo.png" alt="Logo" style="width:100px;height:100px; padding:10px"></img> -->
     </div>
     <div class="box-secondary">
-      <center>
-      <h1 style="width: 60%">We've Got Some of the Best Tutors!</h1>
-      </center>
-    </div>
-    <div class="box-primary">
-      <h1 style="color: black;" class="altTitle">John Garza</h1>
-      <h3 style="color: black;">This is a description</h3>
-    </div>
-    <div class="box-secondary">
-      <h1 style="color: black;" class="altTitle">Elliot Huang</h1>
-      <h3 style="color: white;">This is a description</h3>
-    </div>
-    <div class="box-primary">
-      <h1 style="color: black;" class="altTitle">John Dryden</h1>
-      <h3 style="color: black;">This is a description</h3>
-    </div>
-    <div class="box-secondary">
-      <h1 style="color: black;" class="altTitle">Alex Lizardi</h1>
-      <h3 style="color: white;">This is a description</h3>
+      <h1>In Person</h1>
+      <br>
+      <p>Let's make sure we can meet up, start by entering your zipcode</p>
+      <input type="text" placeholder="Zipcode">
+      <br>
+      <button type="button" name="button" onclick="getVal()">Done</button>
     </div>
   </body>
 </html>

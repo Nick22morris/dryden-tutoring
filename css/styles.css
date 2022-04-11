@@ -256,3 +256,9 @@ h4,p {
 .menu > li:hover .submenu li:nth-child(odd){
   transform: skewX(-25deg) translateX(-15px);
 }
+
+tr, table, td {
+  color: white;
+  border: 1px solid white;
+  border-collapse: collapse;
+}
